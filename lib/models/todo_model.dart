@@ -1,6 +1,6 @@
 import 'package:hive_flutter/hive_flutter.dart';
 
-class ToDoDatabase {
+class ToDoModel {
   List toDoList = [];
 
   final _mybox = Hive.box('mybox');

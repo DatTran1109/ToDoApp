@@ -27,7 +27,7 @@ class DialogBox extends StatelessWidget {
               controller: controller,
               decoration: const InputDecoration(
                 border: OutlineInputBorder(),
-                hintText: 'Add a new task!',
+                hintText: 'Enter a new task!',
               ),
             ),
             const SizedBox(height: 10),
